@@ -1,0 +1,188 @@
+@media all and (min-width: 100px) and (max-width: 500px){
+
+	header{
+		height: 100%;
+	}
+
+	nav ul{
+		display: block;
+		position: absolute;
+		width: 100%;
+		background-color: rgba(0, 0, 0,0.9);
+	}
+	nav li{
+		display: none;
+		padding: 5px 5px;
+	}
+	nav{
+		padding-bottom: 5px;
+	}
+	#menu{
+		display: inline-block;
+		color: white;
+		font-weight: 900;
+		position: static;
+		padding: 0px 5px;
+	}
+	nav a{
+		font-family: 'EB Garamond', serif;
+		font-size:25px;
+	}
+	#menu a{
+		font-size: 30px;
+		color: white;
+	}
+	#menu:hover{
+		background-color: #555;
+	}
+	.responsive li{
+		display: block;
+		width: 100%;
+    }
+    .responsive li a{
+        display: block;
+        text-align: left;
+    }
+
+
+
+	.fon-back{
+		background-color: rgba(171,64,65,1);
+	}
+	.club-match{
+		display: block;
+		text-align: center;
+		padding-top: 0;
+		margin-bottom: 0;
+	}
+	.club-name{
+		font-size: 25px; 
+	}
+	.VS{
+		display: block;
+		font-size: 24px;
+	}
+	.club-match img{
+		height: 45px; 
+	}
+
+	.data-place{
+		display: flex;
+		justify-content: center;
+		padding-top:5px;
+		color: white;
+	}
+	.data-place img{
+		height: 10px;
+		margin:0 3px 0 5px;
+	}
+	.data-place span{
+		font-size: 10px;
+	}
+	.name-div{
+		margin-bottom:15px;
+	}
+
+
+
+	.table-news{
+		margin-top: 20px;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.legua-table{
+		margin: 0 auto;
+		padding-bottom:20px; 
+	}
+	.name-div-div{
+		margin: 0 auto;
+	}
+	.div-news{
+		display: block;
+
+	}
+	.style-news{
+		width: 330px;
+		padding-bottom: 40px;
+		margin: auto;
+	}
+	.photo-news img{
+		width: 330px;
+	}
+
+
+	
+	.div-video-goal{
+		flex-direction: column;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		justify-content: center;
+	}
+	.bombardir{
+		width: 90%;
+		margin: 0 auto;
+		padding-bottom: 20px;
+	}
+
+	.video-match{
+		margin:0 10px;
+	}
+	.video-match h4{
+		padding: 5px 0;
+	}
+
+
+
+
+	.result-gallery{
+		flex-direction: column;
+		margin-top: 25px;
+	}
+	.result{
+		margin: 0 auto;
+		width: 90%;
+	}
+
+	
+	.gallery{
+		margin: 0 10px;
+	}
+	.body-gallery{
+		grid-template-columns: 1fr;
+		
+	}
+
+
+
+	/* news */
+	.main-news{
+		margin: 20px 0;
+		padding: 5px;
+	}
+
+	.test6{
+		grid-column: 1;
+	}
+	.test5{
+		grid-column: 1;
+	}
+
+
+
+	/* team */
+	.ul-players-stats li{
+		display: block;
+	}
+
+
+
+	/*championship*/
+	.main-table{
+		
+		padding:0 5px;
+		font-size: 16px;
+	}
+}
+
+
+
