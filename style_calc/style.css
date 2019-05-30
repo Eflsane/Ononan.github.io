@@ -17,12 +17,9 @@
     border:1px solid #e5e5e5;
     position: relative;
 }
-.but span{
+main{
     position:absolute;
     top: 30px;
-}
-#equally span{
-    top: 70px;
 }
 .but:hover{
     background-color: #cecccc;
